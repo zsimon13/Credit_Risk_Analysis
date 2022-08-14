@@ -127,5 +127,6 @@ The stats for Easy Ensemble AdaBoost Classifier are as follows and can be observ
 
 ## Summary
 
-Among the resampling methods, the precision did not change significantly between the 4 models. 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+Among the resampling methods (Naive random oversampling, SMOTE oversampling, undersampling, and combination) the precision for high-risk and low-risk were identical among the 4 models. The reacall among the 4 models also floated around the 0.60 range and we would ideally like it to be higher and more balanced between the high and low risk. The Balanced accuracy scores ranged between 0.54 and 0.68, nother end of the range was particularly reassuring given the risk of lending money. The classifier methods showed higher Balanced accuracy scores with the Easy Ensemble method having the highest score of all methods by a long shot at 0.93. The Balanced Random Forest Classifier had a more balanced precision between the high and low risk, howevre the recall had a large ranges between the high and low risk. The Easy Ensmeble Classifier had a wide range in precison of hihgh and low risk, but the recall was very tight a for high and low risk.
+
+For the reasons above I believe the Easy Ensemble method would be the best method for credit risk analyis. The balacned accuracy score is the highest among all the test tried as well as the recall being very high on both high and low risk catagories. This is important so that no risky loan applications fall through the cracks and get approved. A "better safe than sorry" approach.
