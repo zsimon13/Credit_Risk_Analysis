@@ -68,7 +68,7 @@ The stats for Undersampling are as follows and can be observed in the following 
 ### Combination (Over and Under) Sampling
 
 The stats for Combination (Over and Under) Sampling are as follows and can be observed in the following screen shots.
-- Balanced Accuracy Score: **0.650*
+- Balanced Accuracy Score: **0.650**
 - Precision
   - High Risk: **0.01**
   - Low Risk: **1.00**
@@ -126,4 +126,6 @@ The stats for Easy Ensemble AdaBoost Classifier are as follows and can be observ
 
 
 ## Summary
+
+Among the resampling methods, the precision did not change significantly between the 4 models. 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
