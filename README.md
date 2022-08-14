@@ -7,6 +7,14 @@ Good credit and loans vastly outnumber risky credit and loans. This analysis tak
 
 ### Naive Random Oversampling
 
+The stats for Naive Random Oversampling are as follows and can be observed in the following screen shots.
+- Balanced Accuracy Score: **0.68**
+- Precision
+  - High Risk: **0.01**
+  - Low Risk: **1.00**
+- Recall
+  - High Risk: **0.72**
+  - Low Risk: **0.60**
 
 #### Naive Random Oversampling Accuracy  Score
 ![naive_accuracy](https://user-images.githubusercontent.com/102814578/184519917-017844f3-3a58-4c6a-81bf-01d5222c80ab.png)
@@ -19,6 +27,15 @@ Good credit and loans vastly outnumber risky credit and loans. This analysis tak
 
 ### SMOTE OverSampling
 
+The stats for SMOTE OverSampling are as follows and can be observed in the following screen shots.
+- Balanced Accuracy Score: **0.66**
+- Precision
+  - High Risk: **0.01**
+  - Low Risk: **1.00**
+- Recall
+  - High Risk: **0.61**
+  - Low Risk: **0.72**
+  
 #### SMOTE Oversampling Accuracy  Score
 ![SMOTE_accuracy](https://user-images.githubusercontent.com/102814578/184519921-664bca5c-cd91-40f0-a644-9e63fd66e791.png)
 
@@ -30,6 +47,15 @@ Good credit and loans vastly outnumber risky credit and loans. This analysis tak
 
 ### Undersampling
 
+The stats for Undersampling are as follows and can be observed in the following screen shots.
+- Balanced Accuracy Score: **0.54**
+- Precision
+  - High Risk: **0.01**
+  - Low Risk: **1.00**
+- Recall
+  - High Risk: **0.69**
+  - Low Risk: **0.40**
+ 
 #### Undersampling Accuracy  Score
 ![undersampling_accuracy](https://user-images.githubusercontent.com/102814578/184519923-df25d468-b3ba-451c-abd1-cbfe23792903.png)
 
@@ -41,6 +67,15 @@ Good credit and loans vastly outnumber risky credit and loans. This analysis tak
 
 ### Combination (Over and Under) Sampling
 
+The stats for Combination (Over and Under) Sampling are as follows and can be observed in the following screen shots.
+- Balanced Accuracy Score: **0.650*
+- Precision
+  - High Risk: **0.01**
+  - Low Risk: **1.00**
+- Recall
+  - High Risk: **0.72**
+  - Low Risk: **0.57**
+ 
 #### Combination (Over and Under) Sampling Accuracy  Score
 ![combination_accuracy](https://user-images.githubusercontent.com/102814578/184519927-f64e7523-e3ee-422f-b50a-7146c68003cf.png)
 
@@ -52,6 +87,15 @@ Good credit and loans vastly outnumber risky credit and loans. This analysis tak
 
 ### Balanced Random Forest Classifier
 
+The stats for Balanced Random Forest Classifier are as follows and can be observed in the following screen shots.
+- Balanced Accuracy Score: **0.68**
+- Precision
+  - High Risk: **0.88**
+  - Low Risk: **1.00**
+- Recall
+  - High Risk: **0.37**
+  - Low Risk: **1.00**
+ 
 #### Balanced Random Forest Classifier Accuracy  Score
 ![balanced_random_forest_accuracy](https://user-images.githubusercontent.com/102814578/184519946-8e5b604a-1599-4f49-aaae-cb04678d697b.png)
 
@@ -63,6 +107,15 @@ Good credit and loans vastly outnumber risky credit and loans. This analysis tak
 
 ### Easy Ensemble AdaBoost Classifier
 
+The stats for Easy Ensemble AdaBoost Classifier are as follows and can be observed in the following screen shots.
+- Balanced Accuracy Score: **0.93**
+- Precision
+  - High Risk: **0.07**
+  - Low Risk: **1.00**
+- Recall
+  - High Risk: **0.91**
+  - Low Risk: **0.95**
+ 
 #### Easy Ensemble AdaBoost Classifier Accuracy  Score
 ![ez_accuracy](https://user-images.githubusercontent.com/102814578/184519949-e6cea24f-c81d-42a2-83a0-80e29524f705.png)
 
