@@ -68,7 +68,7 @@ The stats for Undersampling are as follows and can be observed in the following 
 ### Combination (Over and Under) Sampling
 
 The stats for Combination (Over and Under) Sampling are as follows and can be observed in the following screen shots.
-- Balanced Accuracy Score: **0.650**
+- Balanced Accuracy Score: **0.65**
 - Precision
   - High Risk: **0.01**
   - Low Risk: **1.00**
