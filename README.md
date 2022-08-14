@@ -10,11 +10,11 @@ Good credit and loans vastly outnumber risky credit and loans. This analysis tak
 The stats for Naive Random Oversampling are as follows and can be observed in the following screen shots.
 - Balanced Accuracy Score: **0.68**
 - Precision
-  - High Risk: **0.01**
-  - Low Risk: **1.00**
+  - High-Risk: **0.01**
+  - Low-Risk: **1.00**
 - Recall
-  - High Risk: **0.72**
-  - Low Risk: **0.60**
+  - High-Risk: **0.72**
+  - Low-Risk: **0.60**
 
 #### Naive Random Oversampling Accuracy  Score
 ![naive_accuracy](https://user-images.githubusercontent.com/102814578/184519917-017844f3-3a58-4c6a-81bf-01d5222c80ab.png)
@@ -30,11 +30,11 @@ The stats for Naive Random Oversampling are as follows and can be observed in th
 The stats for SMOTE OverSampling are as follows and can be observed in the following screen shots.
 - Balanced Accuracy Score: **0.66**
 - Precision
-  - High Risk: **0.01**
-  - Low Risk: **1.00**
+  - High-Risk: **0.01**
+  - Low-Risk: **1.00**
 - Recall
-  - High Risk: **0.61**
-  - Low Risk: **0.72**
+  - High-Risk: **0.61**
+  - Low-Risk: **0.72**
   
 #### SMOTE Oversampling Accuracy  Score
 ![SMOTE_accuracy](https://user-images.githubusercontent.com/102814578/184519921-664bca5c-cd91-40f0-a644-9e63fd66e791.png)
@@ -50,11 +50,11 @@ The stats for SMOTE OverSampling are as follows and can be observed in the follo
 The stats for Undersampling are as follows and can be observed in the following screen shots.
 - Balanced Accuracy Score: **0.54**
 - Precision
-  - High Risk: **0.01**
-  - Low Risk: **1.00**
+  - High-Risk: **0.01**
+  - Low-Risk: **1.00**
 - Recall
-  - High Risk: **0.69**
-  - Low Risk: **0.40**
+  - High-Risk: **0.69**
+  - Low-Risk: **0.40**
  
 #### Undersampling Accuracy  Score
 ![undersampling_accuracy](https://user-images.githubusercontent.com/102814578/184519923-df25d468-b3ba-451c-abd1-cbfe23792903.png)
@@ -70,11 +70,11 @@ The stats for Undersampling are as follows and can be observed in the following 
 The stats for Combination (Over and Under) Sampling are as follows and can be observed in the following screen shots.
 - Balanced Accuracy Score: **0.65**
 - Precision
-  - High Risk: **0.01**
-  - Low Risk: **1.00**
+  - High-Risk: **0.01**
+  - Low-Risk: **1.00**
 - Recall
-  - High Risk: **0.72**
-  - Low Risk: **0.57**
+  - High-Risk: **0.72**
+  - Low-Risk: **0.57**
  
 #### Combination (Over and Under) Sampling Accuracy  Score
 ![combination_accuracy](https://user-images.githubusercontent.com/102814578/184519927-f64e7523-e3ee-422f-b50a-7146c68003cf.png)
@@ -90,11 +90,11 @@ The stats for Combination (Over and Under) Sampling are as follows and can be ob
 The stats for Balanced Random Forest Classifier are as follows and can be observed in the following screen shots.
 - Balanced Accuracy Score: **0.68**
 - Precision
-  - High Risk: **0.88**
-  - Low Risk: **1.00**
+  - High-Risk: **0.88**
+  - Low-Risk: **1.00**
 - Recall
-  - High Risk: **0.37**
-  - Low Risk: **1.00**
+  - High-Risk: **0.37**
+  - Low-Risk: **1.00**
  
 #### Balanced Random Forest Classifier Accuracy  Score
 ![balanced_random_forest_accuracy](https://user-images.githubusercontent.com/102814578/184519946-8e5b604a-1599-4f49-aaae-cb04678d697b.png)
@@ -110,11 +110,11 @@ The stats for Balanced Random Forest Classifier are as follows and can be observ
 The stats for Easy Ensemble AdaBoost Classifier are as follows and can be observed in the following screen shots.
 - Balanced Accuracy Score: **0.93**
 - Precision
-  - High Risk: **0.07**
-  - Low Risk: **1.00**
+  - High-Risk: **0.07**
+  - Low-Risk: **1.00**
 - Recall
-  - High Risk: **0.91**
-  - Low Risk: **0.95**
+  - High-Risk: **0.91**
+  - Low-Risk: **0.95**
  
 #### Easy Ensemble AdaBoost Classifier Accuracy  Score
 ![ez_accuracy](https://user-images.githubusercontent.com/102814578/184519949-e6cea24f-c81d-42a2-83a0-80e29524f705.png)
@@ -127,6 +127,6 @@ The stats for Easy Ensemble AdaBoost Classifier are as follows and can be observ
 
 ## Summary
 
-Among the resampling methods (Naive random oversampling, SMOTE oversampling, Undersampling, and Combination) the precision for high-risk and low-risk were identical among the 4 models. The reacall among the 4 models also floated around the 0.60 range and we would ideally like it to be higher and more balanced between the high and low risk. The Balanced accuracy scores ranged between 0.54 and 0.68, nother end of the range was particularly reassuring given the risk of lending money. The classifier methods showed higher Balanced accuracy scores with the Easy Ensemble method having the highest score of all methods by a long shot at 0.93. The Balanced Random Forest Classifier had a more balanced precision between the high and low risk, howevre the recall had a large ranges between the high and low risk. The Easy Ensmeble Classifier had a wide range in precison of hihgh and low risk, but the recall was very tight a for high and low risk.
+Among the resampling methods (Naive random oversampling, SMOTE oversampling, Undersampling, and Combination) the precision for high-risk and low-risk were identical among the 4 models. The recall among the 4 models also floated around the 0.60 range and we would ideally like it to be higher and more balanced between the high and low risk. The Balanced accuracy scores ranged between 0.54 and 0.68, neither end of the range was particularly reassuring given the risk of lending money. The classifier methods showed higher Balanced accuracy scores with the Easy Ensemble method having the highest score of all methods by a long shot at 0.93. The Balanced Random Forest Classifier had a more balanced precision between the high and low-risk, howevre the recall had a large ranges between the high and low risk. The Easy Ensmeble Classifier had a wide range in precison of hihgh and low-risk, but the recall was very tight a for high and low-risk.
 
-For the reasons above I believe the Easy Ensemble method would be the best method for credit risk analyis. The balacned accuracy score is the highest among all the test tried as well as the recall being very high on both high and low risk catagories. This is important so that no risky loan applications fall through the cracks and get approved. A "better safe than sorry" approach.
+For the reasons above I believe the Easy Ensemble method would be the best method for credit risk analyis. The balacned accuracy score is the highest among all the test tried as well as the recall being very high on both high and low-risk catagories. This is important so that no risky loan applications fall through the cracks and get approved. A "better safe than sorry" approach.
